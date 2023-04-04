@@ -12,6 +12,7 @@ body {
 section{
     display: flex;
     width: 100%;
+    position: relative;
 }
 .content1 h1{
     padding-top: 50%;
@@ -22,7 +23,7 @@ section{
     text-align: center
 }
 .content1 {
-    background-color: aqua;
+    background-color: #D9C196;
     height: 960px;
     width: 35%;
 }
@@ -33,14 +34,21 @@ section{
 .content-image > img {
     height: 960px;
     width: 620px;
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .content2 {
-    background-color: blue;
+    background-color: #F26938;
     height: 960px;
     width: 35%;
-  
+}
+#bnt {
+    background-color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20%;
+    margin-top: 150px;
+    position: absolute;
+    
 }
