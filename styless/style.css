@@ -2,15 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body {
+body, html {
     width: 100%;
-    height: 700px;
+    height: auto;
+    overflow: hidden;
 }
 section{
     display: flex;
@@ -44,11 +46,6 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.content2 {
-    background-color: #F26938;
-    height: 960px;
-    width: 35%;
-}
 #bnt {
     background-color: #45788C;
     color: #000000;
@@ -68,3 +65,20 @@ section{
     color: white;
     padding: 24px;
 }
+.content2 {
+    background-color: #F26938;
+    height: 960px;
+    width: 35%;
+}
+.content2 h2 {
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 190px;
+}
+.content2 h3 {
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+}
+
